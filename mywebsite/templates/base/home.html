@@ -1,0 +1,299 @@
+ 
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <title>Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link
+        href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Theme CSS -->
+
+    <link id="theme-style" rel="stylesheet" href="{% static 'css/main.css' %}">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="top-bar container-fluid">
+
+            <ul class=" list-inline">
+                <li><a href="https://www.linkedin.com/in/maureen-chepkemoi-177b5b1b6"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/Maureen04314510/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fa fa-google-plus"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/Maureen435/"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+            <!--//social-->
+        </div>
+        <!--//top-bar-->
+        <div class="page-nav-space-holder hidden-xs">
+            <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+                <div class="container">
+                    <ul id="page-nav" class=" list-inline">
+                        <li><a class="scrollto" href="#education-section">Education</a></li>
+                        <li><a class="scrollto" href="#skills-section">Skills</a></li>
+                        <li><a class="scrollto" href="#portfolio-section">Portfolio</a></li>
+                        <li><a class="scrollto" href="#contact-section">Contact</a></li>
+                    </ul>
+                    <!--//page-nav-->
+                </div>
+            </div>
+            <div class="landing">
+                <div class="intro">
+                    <div class="container text-center">
+                        <img class="profile-image" src="https://bit.ly/2FcWaCb" >
+                        <h1 class="name">Chepkemoi Maureen</h1>
+                        <div class="title">Full Stack Developer </div>
+                        <div class="profile">
+                            <p>Passionate in problem solving to help the community in comming up with solutions to their difficult tasks
+                                by building appropriate applications, Hence embracing changes in traditional attitude to the constuction of programs,
+                                Instead of imagining that our main task is to instruct a computer what to do,
+                                hence concentrate rather on explaining to human beings what we want a computer to do.”
+                            </p>
+                        </div>
+                        <!--//profile-->
+                    </div>
+                    <!--//container-->
+                </div>
+                <!--//intro-->
+
+                <div class="contact-info">
+                    <div class="container text-center">
+                        <ul class="list-inline">
+                            <li class="email"><i class="fa fa-envelope"></i><a href="#">mchepkemoi435@gmail.com</a>
+                            </li>
+                            <li><i class="fa fa-phone"></i> <a href="tel: +254727325535">+254704603872</a></li>
+                            <li class="website"><i class="fa fa-globe"></i><a href="#">mchepkemoi435.com</a></li>
+                        </ul>
+                    </div>
+                    <!--//container-->
+                </div>
+                <!--//contact-info-->
+            </div>
+
+        </div>
+
+    </header>
+    <!--//header-->
+    <br></br>
+
+    <div class="wrapper container edu">
+
+        <section id="education-section" class="education-section section">
+            <h2 class="section-title text-center">Education</h2>
+            <hr>
+            <div class="row">
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h3 class="degree">Software Development</h3>
+                        <div class="education-body"><br>
+                            Moringa School
+                        </div>
+                        <!--//education-body-->
+                        <div class="time">2020-2020</div>
+                        <div class="desc">
+                            Awarded Certificate for successfully completing flask,django module and professional
+                            development course
+                        </div>
+                    </div>
+                    <!--//item-inner-->
+                </div>
+                <!--//item-->
+
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h3 class="degree">Bachelor of science in Computer Science</h3>
+                        <div class="education-body"><br>
+                            St.Paul's University
+                        </div>
+                        <!--//education-body-->
+                        <div class="time">2017-2019</div>
+                        <div class="desc">
+                            University mainly focused on computer programming basics and theoritical computer parts and computer securities.
+                        </div>
+                    </div>
+                    <!--//item-inner-->
+                </div>
+                <!--//item-->
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h3 class="degree">High School</h3>
+                        <div class="education-body"><br>
+                            Kong'otik Girls 
+                        </div>
+                        <!--//education-body-->
+                        <div class="time">2012 - 2016</div>
+                        <div class="desc">
+                            The High School was mainly focus on the bases of science , mathematics and languages.
+                        </div>
+                    </div>
+                    <!--//item-inner-->
+                </div>
+
+            </div>
+    </div>
+
+    <!--//row-->
+    </section>
+    <!--//section-->
+    <br></br><br></br>
+
+
+    <section id="skills-section" class=" container skills-section section text-center skills">
+        <h2 class="section-title">Professional Skills</h2>
+        <div class="top-skills">
+            <h3 class="subtitle">Top Skills</h3>
+            <div class="row">
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h4 class="skill-name">Python &amp; Django</h4>
+                        <div class="level">Medium, 4 months</div>
+                        <div class="desc">
+                            I've been using django for the past months,and developing amazing and urgent websites
+                            to my clients and servers.
+                        </div>
+                    </div>
+                    <!--//item-inner-->
+                </div>
+                <!--//item-->
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h4 class="skill-name">Flask</h4>
+                        <div class="level">Medium, 2 months</div>
+                        <div class="desc">
+                            Started as a hobbie,Then it was a mandatory course in MOringa School .Then completed
+                            various
+                            projects in academics and some projects as assignment on canvas student platform.
+                        </div>
+                    </div>
+                    <!--//item-inner-->
+                </div>
+                <!--//item-->
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h4 class="skill-name">HTML5,CSS,Javascript</h4>
+                        <div class="level">Advanced, 3 months</div>
+                        <div class="desc">
+                            Started as a hobbie, Then it was a mandatory course in Moringa School. 
+                            Then completed various projects in academic and some
+                            projects as assignments on canvas student platform
+                        </div>
+
+                    </div>
+                    <!--//item-inner-->
+                </div>
+                <!--//item-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//top-skills-->
+
+        <div class="other-skills">
+            <h3 class="subtitle">Other Skills</h3>
+            <div class="misc-skills">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+
+                <br>
+
+
+                <span class="skill-tag">MYSQL</span>
+                <span class="skill-tag">Database</span>
+                <span class="skill-tag">Git</span>
+
+
+                <span class="skill-tag">Angular JS</span>
+
+            </div>
+        </div>
+        <!--//other-skills-->
+
+    </section>
+    <!--//skills-section-->
+
+    <section class="portfolio margin" id="portfolio">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white mb-0">Portfolio</h2>
+            <hr class="star-light mb-5 text-white">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">News Highlight</h5>
+                            <p class="card-text">This is an application that allows users to view news from UK,<br>
+                                 The users get upto date news
+                                 .<br>It uses the news API for UK.</p>
+                            <a href="https://news-app-435.herokuapp.com/" class="btn btn-primary">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Password Locker</h5>
+                            <p class="card-text">The application enables clients to store and retrieve their credential upon login, they can create accounts with password.
+                            </p>
+                            <a href="https://github.com/Maureen435/Password-locker/" class="btn btn-primary">View on github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="margin"></div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Git Search</h5>
+                            <p class="card-text">The application enables a user to enter a github username in order to view the user repositories, user profile, user followers and following.
+                            </p>
+                            <a href="https://maureen435.github.io/gitsearch/" class="btn btn-primary">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza</h5>
+                            <p class="card-text">The application enables one to make an order and get the amount of the pizza ordered and is prompted to enter the location details before making a delivery.
+                            </p>
+                            <a href="https://maureen435.github.io/pizza.order/" class="btn btn-primary">Open</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--//wrapper-->
+<br></br><br>
+    <footer class="footer text-center">
+        <div class="container">
+            <small class="copyright">Copyright @ <a href="#">Chepkemoi Maureen</a></small>
+        </div>
+        <!--//container-->
+    </footer>
+
+
+</body>
+
+</html>
